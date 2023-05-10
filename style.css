@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    letter-spacing: 0.4px;
+}
+
+body {
+    background-color: #f3f3f3;
+    height: 100%;
+    background: linear-gradient(135deg,
+            #ffedb2,
+            #ffdc83)fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/*Basic Area Design*/
+.wrapper {
+    position: absolute;
+    width: 75vmin;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+/*Design of the place to see the result*/
+.count {
+    background-color: #f4b02a;
+    color: #ffffff;
+    width: 100%;
+    padding: 7px;
+    position: relative;
+    display: flex;
+    font-family: "Rubik";
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+}
+
+/*The text of the result*/
+
+.count h5 {
+    font-size: 22px;
+}
+
+/*input place design*/
+
+.container {
+    background-color: #ffffff;
+    padding: 30px 20px 20px 20px;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0 30px 50px rgba(30, 21, 49, 0.3);
+    font-family: Rubik;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    resize: none;
+    outline: none;
+    font-family: Rubik;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 10px;
+    max-height: 280px;
+    color: #0e101a;
+    box-shadow: 0 20px 65px rgba(213, 183, 137, 0.33);
+}
